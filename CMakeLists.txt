@@ -15,6 +15,6 @@ if(MSVC)
 endif()
 
 
-add_executable(main "src/main.cc" "include/sort.h" "include/stats.h" "include/generator.h" "include/analysis.h")
+add_executable(main "src/main.cc" "include/sort.h" "include/stats.h" "include/generator.h" "include/analysis.h" "include/car.h")
 
 

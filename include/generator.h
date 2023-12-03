@@ -19,18 +19,18 @@ std::vector<int> generateRandomArray(int lower_bound, int upper_bound, size_t si
 }
 
 // Генератор отсортированного массива
-std::vector<int> generateSortedArray(int size) {
+std::vector<int> generateSortedArray(size_t size) {
     std::vector<int> sortedArray;
-    for (int i = 1; i <= size; ++i) {
+    for (size_t i = 1; i <= size; ++i) {
         sortedArray.push_back(i);
     }
     return sortedArray;
 }
 
 // Генератор обратно отсортированного массива
-std::vector<int> generateReverseSortedArray(int size) {
+std::vector<int> generateReverseSortedArray(size_t size) {
     std::vector<int> reverseSortedArray;
-    for (int i = size; i > 0; --i) {
+    for (size_t i = size; i > 0; --i) {
         reverseSortedArray.push_back(i);
     }
     return reverseSortedArray;
